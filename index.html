@@ -1,244 +1,91 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html>
 <head>
+    <title>Healthy Garden Habits</title>
 
-  <meta charset="UTF-8" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f8f2;
+            text-align: center;
+        }
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        .hero {
+            padding: 60px 20px;
+            background: #dbead3;
+        }
 
-  <title data-gumroad-field="name">Product</title>
+        h1 {
+            color: #6b8e23;
+            font-size: 36px;
+        }
 
-  <script src="https://cdn.tailwindcss.com"></script>
+        h2 {
+            color: #4f6f1a;
+        }
 
-  <script>
+        p {
+            font-size: 18px;
+        }
 
-    tailwind.config = {
+        .price {
+            font-size: 26px;
+            font-weight: bold;
+            color: #2e4d14;
+        }
 
-      darkMode: 'class'
+        .btn {
+            background-color: #6b8e23;
+            color: white;
+            padding: 15px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
 
-    }
-
-  </script>
-
-  <style>
-
-    html { scroll-behavior: smooth; }
-
-  </style>
-
+        .section {
+            padding: 40px 20px;
+        }
+    </style>
 </head>
 
-<body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition duration-300">
+<body>
 
-<!-- NAV -->
+<div class="hero">
+    <h1>Healthy Garden Habits 🌿</h1>
+    <p><strong>From Garden to Glass</strong></p>
+    <p>Fresh, natural juices to boost your health.</p>
 
-<header class="flex justify-between items-center p-6 max-w-6xl mx-auto">
+    <p class="price">Only $15</p>
 
-  <h1 class="text-xl font-bold" data-gumroad-field="name">Product Name</h1>
-
-  <button id="themeToggle" class="border px-3 py-1 rounded">🌙</button>
-
-</header>
-
-<!-- HERO -->
-
-<section class="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10 items-center">
-
-  <!-- TEXT -->
-
-  <div>
-
-    <h2 class="text-4xl font-extrabold leading-tight mb-4">
-
-      Transform Your Health & Lifestyle Naturally
-
-    </h2>
-
-    <p class="mb-6 text-lg opacity-80" data-gumroad-field="description">
-
-      Product description goes here.
-
-    </p>
-
-<div class="flex items-center gap-4 mb-6">
-
-  <span class="text-3xl font-bold" data-gumroad-field="price">$19</span>
-
-  <span class="text-sm opacity-70">
-
-    ⭐ <span data-gumroad-field="rating">Be the first to review</span>
-
-  </span>
-
+    <!-- BUTTON -->
+    <a href="PASTE-YOUR-GUMROAD-LINK-HERE" class="btn">Get Your Copy</a>
 </div>
 
-
-
-<button 
-
-  data-gumroad-action="buy"
-
-  class="bg-black text-white dark:bg-white dark:text-black px-6 py-3 rounded-lg font-semibold hover:scale-105 transition">
-
-  Buy Now
-
-</button>
-
-  </div>
-
-  <!-- VISUAL -->
-
-  <div class="w-full h-80 bg-gradient-to-br from-green-400 to-green-700 rounded-2xl flex items-center justify-center text-white text-2xl font-bold shadow-lg">
-
-    YOUR PRODUCT
-
-  </div>
-
-</section>
-
-<!-- BENEFITS -->
-
-<section class="bg-gray-100 dark:bg-gray-800 py-16">
-
-  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-center">
-
-<div class="p-6 rounded-xl bg-white dark:bg-gray-900 shadow">
-
-  <h3 class="font-bold text-xl mb-2">Boost Health</h3>
-
-  <p class="opacity-70">Nutrient-rich guidance designed to improve your body naturally.</p>
-
+<div class="section">
+    <h2>What You’ll Get</h2>
+    <p>🍹 Juice recipes for energy</p>
+    <p>🌿 Natural detox support</p>
+    <p>💪 Simple daily habits</p>
 </div>
 
+<div class="section">
+    <h2>Start Today</h2>
+    <p>Take control of your health naturally.</p>
 
-
-<div class="p-6 rounded-xl bg-white dark:bg-gray-900 shadow">
-
-  <h3 class="font-bold text-xl mb-2">Easy to Follow</h3>
-
-  <p class="opacity-70">Simple, step-by-step approach anyone can follow.</p>
-
+    <!-- BUTTON AGAIN -->
+    <a href="PASTE-YOUR-GUMROAD-LINK-HERE" class="btn">Buy Now for $15</a>
 </div>
-
-
-
-<div class="p-6 rounded-xl bg-white dark:bg-gray-900 shadow">
-
-  <h3 class="font-bold text-xl mb-2">Real Results</h3>
-
-  <p class="opacity-70">Built for everyday people who want lasting change.</p>
-
-</div>
-
-  </div>
-
-</section>
-
-<!-- WHAT YOU GET -->
-
-<section class="max-w-6xl mx-auto px-6 py-16">
-
-  <h2 class="text-3xl font-bold mb-8 text-center">What You’ll Get</h2>
-
-  <div class="grid md:grid-cols-2 gap-6">
-
-    <ul class="space-y-3">
-
-      <li>✔ Proven natural health strategies</li>
-
-      <li>✔ Easy recipes & routines</li>
-
-      <li>✔ Clear step-by-step instructions</li>
-
-    </ul>
-
-<ul class="space-y-3">
-
-  <li>✔ Beginner-friendly guidance</li>
-
-  <li>✔ Lifestyle transformation tips</li>
-
-  <li>✔ Lifetime access</li>
-
-</ul>
-
-  </div>
-
-</section>
-
-<!-- CTA -->
-
-<section class="text-center py-20 bg-green-600 text-white">
-
-  <h2 class="text-3xl font-bold mb-4">Start Your Transformation Today</h2>
-
-  <p class="mb-6 opacity-90">Take action now and change your life.</p>
-
-
-Get Instant Access
-
-</section>
-
-<!-- FOOTER -->
-
-<footer class="text-center py-6 text-sm opacity-60">
-
-  © 2026 Your Brand
-
-</footer>
-
-<!-- SCRIPTS -->
-
-<script>
-
-  // DARK MODE TOGGLE
-
-  const toggle = document.getElementById('themeToggle');
-
-  toggle.addEventListener('click', () => {
-
-    document.documentElement.classList.toggle('dark');
-
-  });
-
-
-
-  // SCROLL ANIMATION
-
-  const elements = document.querySelectorAll('section');
-
-  const observer = new IntersectionObserver(entries => {
-
-    entries.forEach(entry => {
-
-      if(entry.isIntersecting){
-
-        entry.target.classList.add('opacity-100','translate-y-0');
-
-      }
-
-    });
-
-  }, { threshold: 0.2 });
-
-
-
-  elements.forEach(el => {
-
-    el.classList.add('opacity-0','translate-y-10','transition','duration-700');
-
-    observer.observe(el);
-
-  });
-
-</script>
 
 </body>
-
 </html>
 
+
+ 
 
 
 
